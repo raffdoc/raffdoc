@@ -2,4 +2,6 @@
 
 export(createDummies)
 export(hist_wnc)
+export(lm_diag)
 export(m.rg)
+export(m.sd)

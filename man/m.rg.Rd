@@ -6,10 +6,12 @@
 m.rg(x, na.rm = TRUE)
 }
 \arguments{
-\item{x}{numeric vector for mean and range calculation}
+\item{x}{numeric vector for median and range calculation}
+
+\item{na.rm}{logical value for removing or not the NA values.}
 }
 \value{
-returns mean and range (0.25 percentile - 0.75 percentile) of the vector for latex envirment.
+returns median and range (0.25 percentile - 0.75 percentile) of the vector for latex envirment.
 }
 \description{
 median and range for latex documents.
