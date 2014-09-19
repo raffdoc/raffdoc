@@ -15,8 +15,8 @@ lm_diag<-function(formula, dataset){
         names(l1)<-c("Coefficients","Stats")
         print(l1)
         #run specific diagnostic visualisation
-        par(mfrow=c(1,3))
-        hist(model1$residuals, main="Histogram of residuals", xlab="")
+        par(mfrow=c(1,3), pch=19)
+        hist(model1$residuals, main="Histogram of residuals", xlab="", col="lightblue", border = "white")
         plot(model1, 1)
         plot(model1, 2)
 }
