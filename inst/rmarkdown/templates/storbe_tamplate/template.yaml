@@ -1,0 +1,4 @@
+name: Storbe Template
+description: >
+ Template for creating STORBE articles.
+create_dir: true
