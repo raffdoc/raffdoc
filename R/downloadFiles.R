@@ -1,4 +1,5 @@
-#' Donwnload files adopted from Machine Learning Class
+#' Donwnload files function for downloading and storing data file in .csv format 
+#' adapted from Machine Learning Class
 #' @param dataURL url of the data to be downloaded
 #' @param destF destination file to be saved in csv format.
 #' @return returns localy stored file, if files exists it will show message "Data alreade donwloaded".
