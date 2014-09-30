@@ -3,12 +3,10 @@
 \alias{raffdoc}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Package for short and easy fuctions customized by raffdoc
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+This package can be used in latex and rmd enviroments for different useful fuctions.
 }
 \details{
 \tabular{ll}{
@@ -18,24 +16,22 @@ Version: \tab 1.0\cr
 Date: \tab 2014-09-19\cr
 License: \tab What license is it under?\cr
 }
-~~ An overview of how to use the package, including the most important functions ~~
+It is easy to use, documentation si provided.
 }
 \author{
-Who wrote it
+raffdoc
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Who to complain to <margaryan@ftgm.it>
+
 }
 \references{
-~~ Literature or other references for background information ~~
+Margaryan et al. 2014.
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation ~~
-~~ directory ~~
+
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+
 }
 \examples{
-~~ simple examples of the most important functions ~~
+
 }

@@ -1,8 +1,8 @@
 Package: raffdoc
 Type: Package
 Title: Library for frequently used code
-Version: 0.1
-Date: 2014-09-19
+Version: 0.11
+Date: 2014-09-27
 Author: Rafik Margaryan, MD, PhD
 Maintainer: Rafik Margaryan <margaryan@ftgm.it>
 Description: Set of customized functions for the personal use.
