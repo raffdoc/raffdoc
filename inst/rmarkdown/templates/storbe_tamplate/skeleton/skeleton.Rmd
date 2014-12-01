@@ -1,6 +1,7 @@
 ---
 title: STROBE Statement—checklist of items that should be included in reports of observational
   studies
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 author:
 - affiliation: Medical School of Some City
   email: alice@example.com
