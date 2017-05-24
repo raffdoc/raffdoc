@@ -7,8 +7,8 @@
 benford <- function(x, main="Variable of Interest", legend=c("Benford's Law", "Variable of Interest"))
 {
         # A simple example using the audit data from Rattle.
-        require(rattle) #Package required to Benford's Law plot
-        require(colorspace)
+    suppressPackageStartupMessages(require(rattle)) #Package required to Benford's Law plot
+    suppressPackageStartupMessages(require(colorspace))
         expect <- unlist(lapply(1:9, function(x) log10(1 + 1/x))) #Create Benford's Law expectd values
         ds <- rbind(data.frame(dat=x, grp="All")) #Creating dataframe with values to be ploted
         # Generate the data specifically for the plot. A matrix with the expected values from Benford's law and the percent of initial digist observed in the dataset.

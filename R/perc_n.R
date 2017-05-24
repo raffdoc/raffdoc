@@ -8,5 +8,5 @@ perc_n <- function(x,na.rm=TRUE,ref=1,...){
         if (na.rm) 
                 x <- x[!is.na(x)]
         x <- relevel(as.factor(x),ref=ref)
-        return(paste0(perc(~x,format = "count")," ","(",format(perc(~x)),"%",")")) 
+        return(paste0(mosaic::count(~x,format = "count")," ","(",format(mosaic::perc(~x)),"%",")")) 
 }

@@ -12,5 +12,5 @@ m.sd <- function (x, na.rm = TRUE) {
         xbar <- sum(x)/n
         sd <- sqrt(sum((x - xbar)^2)/(n - 1))
         c(mean = xbar, sem = sd)
-        return(paste(format(xbar),"$\\pm$",format(sd)))
+        return(paste(formatC(xbar,format = "f" ,digits = 1),"$\\pm$",formatC(sd, format = "f" ,digits = 1)))
 }
