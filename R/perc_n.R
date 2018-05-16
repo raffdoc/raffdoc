@@ -4,7 +4,7 @@
 #' @return numeric value expressed in percents
 #' @export
 perc_n <- function(x,na.rm=TRUE,ref=1,...){
-        require(mosaic)
+        suppressPackageStartupMessages(require(mosaic))
         if (na.rm) 
                 x <- x[!is.na(x)]
         x <- relevel(as.factor(x),ref=ref)

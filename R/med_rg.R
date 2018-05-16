@@ -10,5 +10,5 @@ m.rg <- function (x, na.rm = TRUE) {
         #if (n == 0) 
         #return(c(median = NA, range = NA);
         #median(x);range(x)
-        return(paste0(format(median(x))," ","(","range, ",format(min(x))," ","$-$ ",format(max(x)),")"))
+        return(paste0(formatC(median(x), format = "f" ,digits = 1)," ","(","range, ",formatC(min(x), format = "f" ,digits = 1)," ","$-$ ",format(max(x), format = "f" ,digits = 1),")"))
 }
