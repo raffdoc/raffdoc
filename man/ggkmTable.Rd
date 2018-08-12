@@ -5,8 +5,8 @@
 \title{Create a Kaplan-Meier plot using ggplot2}
 \usage{
 ggkmTable(sfit, table = TRUE, returns = FALSE, xlabs = "Time",
-  ylabs = "survival probability", ystratalabs = NULL, ystrataname = NULL,
-  timeby = 100, main = "", pval = TRUE, ...)
+  ylabs = "survival probability", ystratalabs = NULL,
+  ystrataname = NULL, timeby = 100, main = "", pval = TRUE, ...)
 }
 \arguments{
 \item{sfit}{a \code{\link[survival]{survfit}} object}
