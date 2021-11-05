@@ -3,7 +3,7 @@
 #' @return numeric value expressed in percents
 #' @export
 
-cols_all_missing <- function(df) {
-        as.vector(which(colSums(is.na(df)) == nrow(df)))
+rows_all_missing <- function(df) {
+  as.vector(which(rowSums(is.na(df)) == nrow(df)))
 }
 
