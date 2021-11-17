@@ -4,8 +4,11 @@
 \alias{benford}
 \title{This function calculates Benford's Low expected versus observed values.}
 \usage{
-benford(x, main = "Variable of Interest", legend = c("Benford's Law",
-  "Variable of Interest"))
+benford(
+  x,
+  main = "Variable of Interest",
+  legend = c("Benford's Law", "Variable of Interest")
+)
 }
 \arguments{
 \item{x}{is a vector with numeric values}

@@ -1,10 +1,10 @@
 Package: raffdoc
 Type: Package
 Title: Library for frequently used code
-Version: 0.11.6.2
-Date: 2017-07-08
+Version: 0.12
+Date: 2021-11-05
 Author: Rafik Margaryan, MD, PhD
 Maintainer: Rafik Margaryan <margaryan@ftgm.it>
 Description: Set of customized functions for the personal use.
 License: GPL3
-RoxygenNote: 6.1.0
+RoxygenNote: 7.1.2
